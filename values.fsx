@@ -37,3 +37,12 @@ let divideByThree input = input / 3
 let (luckyNumberString:string) = "13"
 
 (*--------- UPDATING VALUES ---------*)
+
+cityName <- "Vancouver"
+
+let correctCityName = "Vancouver"
+
+(*--------- MUTABLE VALUES ---------*)
+let mutable mutableCityName = "Vancouve"
+
+mutableCityName <- "Vancouver"
